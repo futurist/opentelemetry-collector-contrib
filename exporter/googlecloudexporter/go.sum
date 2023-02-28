@@ -11,8 +11,8 @@ cloud.google.com/go/logging v1.6.1 h1:ZBsZK+JG+oCDT+vaxwqF2egKNRjz8soXiS6Xv79ben
 cloud.google.com/go/logging v1.6.1/go.mod h1:5ZO0mHHbvm8gEmeEUHrmDlTDSu5imF6MUP9OfilNXBw=
 cloud.google.com/go/longrunning v0.3.0 h1:NjljC+FYPV3uh5/OwWT6pVU+doBqMg2x/rZlE+CamDs=
 cloud.google.com/go/longrunning v0.3.0/go.mod h1:qth9Y41RRSUE69rDcOn6DdK3HfQfsUI0YSmW3iIlLJc=
-cloud.google.com/go/monitoring v1.9.1 h1:y9g09cWAQaX3ZYscR/nfaFUXtuyRqD2+i0jTOw0BZFI=
-cloud.google.com/go/monitoring v1.9.1/go.mod h1:iFzRDMSDMvvf/z30Ge1jwtuEe/jlPPAFusmvCkUdo+o=
+cloud.google.com/go/monitoring v1.12.0 h1:+X79DyOP/Ny23XIqSIb37AvFWSxDN15w/ktklVvPLso=
+cloud.google.com/go/monitoring v1.12.0/go.mod h1:yx8Jj2fZNEkL/GYZyTLS4ZtZEZN8WtDEiEqG4kLK50w=
 cloud.google.com/go/trace v1.8.0 h1:GFPLxbp5/FzdgTzor3nlNYNxMd6hLmzkE7sA9F0qQcA=
 cloud.google.com/go/trace v1.8.0/go.mod h1:zH7vcsbAhklH8hWFig58HvxcxyQbaIqMarMg9hn5ECA=
 contrib.go.opencensus.io/exporter/prometheus v0.4.2 h1:sqfsYl5GIY/L570iT+l93ehxaWJs2/OwXtiWwew3oAg=
