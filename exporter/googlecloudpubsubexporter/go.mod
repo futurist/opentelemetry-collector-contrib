@@ -3,7 +3,7 @@ module github.com/open-telemetry/opentelemetry-collector-contrib/exporter/google
 go 1.19
 
 require (
-	cloud.google.com/go/pubsub v1.28.0
+	cloud.google.com/go/pubsub v1.29.0
 	github.com/google/uuid v1.3.0
 	github.com/stretchr/testify v1.8.2
 	go.opentelemetry.io/collector/component v0.73.0
@@ -17,10 +17,10 @@ require (
 )
 
 require (
-	cloud.google.com/go v0.107.0 // indirect
+	cloud.google.com/go v0.110.0 // indirect
 	cloud.google.com/go/compute v1.18.0 // indirect
 	cloud.google.com/go/compute/metadata v0.2.3 // indirect
-	cloud.google.com/go/iam v0.11.0 // indirect
+	cloud.google.com/go/iam v0.12.0 // indirect
 	github.com/cenkalti/backoff/v4 v4.2.0 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/fsnotify/fsnotify v1.6.0 // indirect
