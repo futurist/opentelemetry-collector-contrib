@@ -5,7 +5,7 @@ go 1.18
 require (
 	github.com/gogo/protobuf v1.3.2
 	github.com/golang/snappy v0.0.4
-	github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/prometheusremotewrite v0.0.0-00010101000000-000000000000
+	github.com/futurist/opentelemetry-collector-contrib/pkg/translator/prometheusremotewrite v0.60.1-0.20230324030731-3bf9d7830225
 	github.com/prometheus/prometheus v0.38.0
 	github.com/stretchr/testify v1.8.1
 	go.opentelemetry.io/collector v0.64.2-0.20221110222631-20e3aac00413
@@ -40,7 +40,7 @@ require (
 	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd // indirect
 	github.com/modern-go/reflect2 v1.0.2 // indirect
 	github.com/mwitkow/go-conntrack v0.0.0-20190716064945-2f068394615f // indirect
-	github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/prometheus v0.64.0 // indirect
+	github.com/futurist/opentelemetry-collector-contrib/pkg/translator/prometheus v0.60.1-0.20230324030731-3bf9d7830225 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/prometheus/client_golang v1.13.1 // indirect
@@ -71,8 +71,10 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/exporter/prometheusremotewritereceiver => ../../receiver/prometheusremotewritereceiver
+replace github.com/futurist/opentelemetry-collector-contrib/receiver/prometheusremotewritereceiver => ../../receiver/prometheusremotewritereceiver
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/prometheusremotewrite => ../../pkg/translator/prometheusremotewrite
+replace github.com/futurist/opentelemetry-collector-contrib/pkg/translator/prometheusremotewrite => ../../pkg/translator/prometheusremotewrite
 
 replace cloud.google.com/go => cloud.google.com/go v0.100.2
+
+replace go.opentelemetry.io/collector/featuregate => go.opentelemetry.io/collector/featuregate v0.64.2-0.20221110222631-20e3aac00413

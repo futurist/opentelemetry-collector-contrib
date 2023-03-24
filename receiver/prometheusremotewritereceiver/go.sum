@@ -305,8 +305,8 @@ github.com/oklog/run v1.0.0/go.mod h1:dlhp/R75TPv97u0XWUtDeV/lRKWPKSdTuV0TZvrmrQ
 github.com/oklog/ulid v1.3.1 h1:EGfNDEx6MqHz8B3uNV6QAib1UR2Lm97sHi3ocA6ESJ4=
 github.com/open-telemetry/opentelemetry-collector-contrib/internal/common v0.64.0 h1:qw2Sqv0GUFUlblxhZpZnyxL2JQYSD6d8M7YteDpul18=
 github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal v0.64.0 h1:q/eqvFPeeAxZ+By7v7kZCboH0Qd8SlGoZhSJm0+Ep7I=
-github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/prometheus v0.64.0 h1:9NLOCBv9EfeE0GhQW2bh3vCnP5+myPYcUe5NeT1qi2U=
-github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/prometheus v0.64.0/go.mod h1:2xFVD3tnMmSKqP5U1AW5XNMVDV/QVwHZ6o8CYYJjQ7Y=
+github.com/futurist/opentelemetry-collector-contrib/pkg/translator/prometheus v0.64.0 h1:9NLOCBv9EfeE0GhQW2bh3vCnP5+myPYcUe5NeT1qi2U=
+github.com/futurist/opentelemetry-collector-contrib/pkg/translator/prometheus v0.64.0/go.mod h1:2xFVD3tnMmSKqP5U1AW5XNMVDV/QVwHZ6o8CYYJjQ7Y=
 github.com/opencontainers/go-digest v1.0.0 h1:apOUWs51W5PlhuyGyz9FCeeBIOUDA/6nW8Oi/yOhh5U=
 github.com/opencontainers/image-spec v1.0.2 h1:9yCKha/T5XdGtO0q9Q9a6T5NUCsTn/DrBg0D7ufOcFM=
 github.com/pascaldekloe/goe v0.0.0-20180627143212-57f6aae5913c/go.mod h1:lzWF7FIEvWOWxwDKqyGYQf6ZUaNfKdP144TG7ZOy1lc=
