@@ -1,0 +1,15 @@
+prometheusremotewrite/defaults:
+  protocols:
+    grpc:
+    http:
+      # endpoint: 0.0.0.0:19291
+prometheusremotewrite/mixed:
+  protocols:
+    grpc:
+      endpoint: localhost:4600
+    http:
+      endpoint: localhost:4500
+  time_threshold: 30
+prometheusremotewrite/empty:
+prometheusremotewrite/extra_keys:
+  foo:
