@@ -21,8 +21,7 @@ import (
 	"net/http"
 	"sync"
 
-	"remotewrite/prometheusremotewrite"
-
+	"github.com/futurist/opentelemetry-collector-contrib/receiver/prometheusremotewritereceiver/prometheusremotewrite"
 	"github.com/prometheus/prometheus/storage/remote"
 	"go.opentelemetry.io/collector/component"
 	"go.opentelemetry.io/collector/consumer"

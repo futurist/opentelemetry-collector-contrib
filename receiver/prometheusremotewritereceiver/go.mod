@@ -1,4 +1,4 @@
-module remotewrite
+module github.com/futurist/opentelemetry-collector-contrib/receiver/prometheusremotewritereceiver
 
 go 1.18
 
