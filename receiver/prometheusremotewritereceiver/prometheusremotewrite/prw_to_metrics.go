@@ -12,14 +12,13 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package prometheusremotewrite // import "github.com/futurist/opentelemetry-collector-contrib/pkg/translator/prometheusremotewrite"
+package prometheusremotewrite // import "github.com/futurist/opentelemetry-collector-contrib/receiver/prometheusremotewritereceiver/prometheusremotewrite"
 
 import (
-	"fmt"
-	"time"
-
 	"errors"
+	"fmt"
 	"regexp"
+	"time"
 
 	"github.com/prometheus/prometheus/prompb"
 	"go.opentelemetry.io/collector/pdata/pcommon"
@@ -28,7 +27,7 @@ import (
 )
 
 const (
-	nameStr     = "__name__"
+	nameStr = "__name__"
 )
 
 var reg = regexp.MustCompile(`(\w+)_(\w+)_(\w+)\z`)
