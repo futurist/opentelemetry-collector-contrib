@@ -1,8 +1,9 @@
-module github.com/open-telemetry/opentelemetry-collector-contrib
+module github.com/futurist/opentelemetry-collector-contrib
 
 go 1.19
 
 require (
+	github.com/futurist/opentelemetry-collector-contrib/receiver/prometheusremotewritereceiver v0.0.0-20230325145029-8aea0dbeaa3e
 	github.com/open-telemetry/opentelemetry-collector-contrib/exporter/alibabacloudlogserviceexporter v0.74.0
 	github.com/open-telemetry/opentelemetry-collector-contrib/exporter/awscloudwatchlogsexporter v0.74.0
 	github.com/open-telemetry/opentelemetry-collector-contrib/exporter/awsemfexporter v0.74.0
@@ -970,6 +971,8 @@ replace github.com/open-telemetry/opentelemetry-collector-contrib/receiver/postg
 replace github.com/open-telemetry/opentelemetry-collector-contrib/receiver/prometheusexecreceiver => ./receiver/prometheusexecreceiver
 
 replace github.com/open-telemetry/opentelemetry-collector-contrib/receiver/prometheusreceiver => ./receiver/prometheusreceiver
+
+replace github.com/futurist/opentelemetry-collector-contrib/receiver/prometheusremotewritereceiver => ./receiver/prometheusremotewritereceiver
 
 replace github.com/open-telemetry/opentelemetry-collector-contrib/receiver/pulsarreceiver => ./receiver/pulsarreceiver
 
