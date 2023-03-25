@@ -3,6 +3,7 @@
 package main
 
 import (
+	prometheusremotewritereceiver "github.com/futurist/opentelemetry-collector-contrib/receiver/prometheusremotewritereceiver"
 	"go.opentelemetry.io/collector/connector"
 	forwardconnector "go.opentelemetry.io/collector/connector/forwardconnector"
 	"go.opentelemetry.io/collector/exporter"
@@ -258,6 +259,7 @@ func components() (otelcol.Factories, error) {
 		podmanreceiver.NewFactory(),
 		postgresqlreceiver.NewFactory(),
 		prometheusreceiver.NewFactory(),
+		prometheusremotewritereceiver.NewFactory(),
 		purefareceiver.NewFactory(),
 		purefbreceiver.NewFactory(),
 		rabbitmqreceiver.NewFactory(),

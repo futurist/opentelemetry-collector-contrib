@@ -21,6 +21,7 @@ require (
 	github.com/AzureAD/microsoft-authentication-library-for-go v0.7.0 // indirect
 	github.com/DataDog/opentelemetry-mapping-go/pkg/otlp/attributes v0.1.4 // indirect
 	github.com/DataDog/opentelemetry-mapping-go/pkg/otlp/metrics v0.1.4 // indirect
+	github.com/futurist/opentelemetry-collector-contrib/receiver/prometheusremotewritereceiver v0.0.0-20230325145029-8aea0dbeaa3e // indirect
 	github.com/open-telemetry/opentelemetry-collector-contrib/exporter/alibabacloudlogserviceexporter v0.74.0 // indirect
 	github.com/open-telemetry/opentelemetry-collector-contrib/exporter/awscloudwatchlogsexporter v0.74.0 // indirect
 	github.com/open-telemetry/opentelemetry-collector-contrib/exporter/awsemfexporter v0.74.0 // indirect

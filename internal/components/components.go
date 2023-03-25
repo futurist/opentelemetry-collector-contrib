@@ -12,9 +12,10 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package components // import "github.com/open-telemetry/opentelemetry-collector-contrib/internal/components"
+package components // import "github.com/futurist/opentelemetry-collector-contrib/internal/components"
 
 import (
+	"github.com/futurist/opentelemetry-collector-contrib/receiver/prometheusremotewritereceiver"
 	"go.opentelemetry.io/collector/exporter"
 	"go.opentelemetry.io/collector/exporter/loggingexporter"
 	"go.opentelemetry.io/collector/exporter/otlpexporter"
@@ -29,7 +30,6 @@ import (
 	"go.opentelemetry.io/collector/receiver"
 	"go.opentelemetry.io/collector/receiver/otlpreceiver"
 
-	"github.com/futurist/opentelemetry-collector-contrib/receiver/prometheusremotewritereceiver"
 	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/alibabacloudlogserviceexporter"
 	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/awscloudwatchlogsexporter"
 	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/awsemfexporter"

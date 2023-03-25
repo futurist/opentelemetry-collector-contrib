@@ -5,6 +5,7 @@ module github.com/open-telemetry/opentelemetry-collector-contrib/cmd/otelcontrib
 go 1.19
 
 require (
+	github.com/futurist/opentelemetry-collector-contrib/receiver/prometheusremotewritereceiver v0.0.0-20230325145029-8aea0dbeaa3e
 	github.com/open-telemetry/opentelemetry-collector-contrib/connector/countconnector v0.74.0
 	github.com/open-telemetry/opentelemetry-collector-contrib/connector/spanmetricsconnector v0.74.0
 	github.com/open-telemetry/opentelemetry-collector-contrib/exporter/alibabacloudlogserviceexporter v0.74.0
@@ -896,6 +897,8 @@ replace github.com/open-telemetry/opentelemetry-collector-contrib/receiver/signa
 replace github.com/open-telemetry/opentelemetry-collector-contrib/receiver/windowsperfcountersreceiver => ../../receiver/windowsperfcountersreceiver
 
 replace github.com/open-telemetry/opentelemetry-collector-contrib/receiver/simpleprometheusreceiver => ../../receiver/simpleprometheusreceiver
+
+replace github.com/futurist/opentelemetry-collector-contrib/receiver/prometheusremotewritereceiver => ../../receiver/prometheusremotewritereceiver
 
 replace github.com/open-telemetry/opentelemetry-collector-contrib/receiver/kafkametricsreceiver => ../../receiver/kafkametricsreceiver
 
