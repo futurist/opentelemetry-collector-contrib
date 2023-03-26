@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package components // import "github.com/futurist/opentelemetry-collector-contrib/internal/components"
+package components // import "github.com/open-telemetry/opentelemetry-collector-contrib/internal/components"
 
 import (
 	"github.com/futurist/opentelemetry-collector-contrib/receiver/prometheusremotewritereceiver"

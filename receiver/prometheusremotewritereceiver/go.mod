@@ -1,6 +1,6 @@
 module github.com/futurist/opentelemetry-collector-contrib/receiver/prometheusremotewritereceiver
 
-go 1.18
+go 1.19
 
 require (
 	github.com/gogo/protobuf v1.3.2

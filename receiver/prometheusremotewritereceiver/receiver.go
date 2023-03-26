@@ -91,6 +91,7 @@ func (rec *PrometheusRemoteWriteReceiver) Start(_ context.Context, host componen
 		rec.shutdownWG.Add(1)
 		go func() {
 			defer rec.shutdownWG.Done()
+			rec.logger.Info("Starting HTTP server: " + rec.server.Addr)
 			if errHTTP := rec.server.Serve(listener); errHTTP != http.ErrServerClosed {
 				host.ReportFatalError(errHTTP)
 			}
